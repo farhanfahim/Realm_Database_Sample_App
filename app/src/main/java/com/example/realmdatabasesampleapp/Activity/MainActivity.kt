@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
 
         //init realm
         Realm.init(applicationContext)
-        val realm = Realm.getDefaultInstance()
+        realm = Realm.getDefaultInstance()
 
 
         //init views
